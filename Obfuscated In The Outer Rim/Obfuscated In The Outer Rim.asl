@@ -64,11 +64,11 @@ startup {
 
 	// Waypoint 6
 	vars.journalEntries.Add(
-		new System.Text.RegularExpressions.Regex(@"\{ ""timestamp"":""(?<timestamp>.*)"", ""event"":""FSDJump""(, ""Taxi"":(true|false), ""Multicrew"":(true|false))?, ""StarSystem"":""(Annwn|Idunn|Tir Na Nog|Enoch Port|Short Hop)"", ""SystemAddress"":\d+, .*\}"));
+		new System.Text.RegularExpressions.Regex(@"\{ ""timestamp"":""(?<timestamp>.*)"", ""event"":""FSDJump""(, ""Taxi"":(true|false), ""Multicrew"":(true|false))?, ""StarSystem"":""(Annwn|Idunn|Tir Na Nog|Agartha|Thule)"", ""SystemAddress"":\d+, .*\}"));
 	vars.journalEntries.Add(
-		new System.Text.RegularExpressions.Regex(@"\{ ""timestamp"":""(?<timestamp>.*)"", ""event"":""SupercruiseExit""(, ""Taxi"":(true|false), ""Multicrew"":(true|false))?, ""StarSystem"":""(Annwn|Idunn|Tir Na Nog|Enoch Port|Short Hop)"", ""SystemAddress"":\d+, ""Body"":""(Gallimaufry|Young City|Tir Na Nog 4 c|Enoch Port|Short Hop)"", ""BodyID"":\d+, ""BodyType"":""(Station|Planet)"" \}"));
+		new System.Text.RegularExpressions.Regex(@"\{ ""timestamp"":""(?<timestamp>.*)"", ""event"":""SupercruiseExit""(, ""Taxi"":(true|false), ""Multicrew"":(true|false))?, ""StarSystem"":""(Annwn|Idunn|Tir Na Nog|Agartha|Thule)"", ""SystemAddress"":\d+, ""Body"":""(Gallimaufry|Young City|Tir Na Nog 4 c|Enoch Port|Short Hop)"", ""BodyID"":\d+, ""BodyType"":""(Station|Planet)"" \}"));
 	vars.journalEntries.Add(
-		new System.Text.RegularExpressions.Regex(@"\{ ""timestamp"":""(?<timestamp>.*)"", ""event"":""Docked"", ""StationName"":""(Gallimaufry|Young City|Sabine Keep|Enoch Port|Short Hop)"", ""StationType"":"".*""(, ""Taxi"":(true|false), ""Multicrew"":(true|false))?, ""StarSystem"":""(Annwn|Idunn|Tir Na Nog|Enoch Port|Short Hop)"", .*\}"));
+		new System.Text.RegularExpressions.Regex(@"\{ ""timestamp"":""(?<timestamp>.*)"", ""event"":""Docked"", ""StationName"":""(Gallimaufry|Young City|Sabine Keep|Enoch Port|Short Hop)"", ""StationType"":"".*""(, ""Taxi"":(true|false), ""Multicrew"":(true|false))?, ""StarSystem"":""(Annwn|Idunn|Tir Na Nog|Agartha|Thule)"", .*\}"));
 	vars.journalEntries.Add(
 		new System.Text.RegularExpressions.Regex(@"\{ ""timestamp"":""(?<timestamp>.*)"", ""event"":""StartJump"", ""JumpType"":""Hyperspace"", .*\}"));
 				
